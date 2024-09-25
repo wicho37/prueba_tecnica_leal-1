@@ -1,0 +1,48 @@
+.contentCardFooter{
+    text-transform: uppercase;
+    font-size: 13px; 
+    letter-spacing: 3px;
+    margin: -15px;
+}
+.contentText{
+   display: grid;
+}
+.contentText a{
+    margin: 7px 0;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.contentText a:hover{
+  text-decoration:underline;
+}
+h4{
+    padding: 35px 0 0;
+    color: hsl(273, 4%, 51%);
+    letter-spacing: 1.5px;
+    margin: 7px 35px 25px;
+    font-family: karla;
+    font-size: 13px;
+}
+  .contentCardFooter:nth-child(1){
+    border-top: 1px solid  hsl(274, 8%, 83%);
+    margin: 0 26px;
+  }
+
+
+
+  @media (min-width:1200px) {
+    .contentCardFooter{
+        width: 25%;
+        margin: 0;
+        text-align: left;
+    }
+    .contentCardFooter:nth-child(1){
+        border-top: none;
+        margin: 0
+    }
+    h4{
+      margin: 0 0 25px;
+    }
+}

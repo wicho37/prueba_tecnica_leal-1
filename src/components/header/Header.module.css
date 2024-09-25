@@ -1,0 +1,19 @@
+.content_nav{
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    width: 217px;
+}
+.logo{width: 48%;
+    margin: 25px 15px;
+}
+li{
+    margin-right: 18px;
+    color: rgb(194, 28, 28);
+    font-size: 16px;
+    font-family: sans-serif;
+}
