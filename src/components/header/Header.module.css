@@ -8,8 +8,12 @@
     list-style: none;
     width: 217px;
 }
-.logo{width: 48%;
-    margin: 25px 15px;
+.logo{
+    width: 30%;
+    margin: 13px 0px 13px 145px;
+}
+.ul_li{
+    margin-left: 54%;
 }
 li{
     margin-right: 18px;
