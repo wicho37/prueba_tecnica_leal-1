@@ -11,9 +11,9 @@ const Navbar = () => {
 
   return (
     <div className={styles.content_nav}>
-        <div>
+        <div className={styles.input}>
             <img src={logo} className={styles.logo} alt="" />
-            <div className={styles.input}>
+            <div >
               <input 
                 type="text"
                 placeholder="busca tu producto...."

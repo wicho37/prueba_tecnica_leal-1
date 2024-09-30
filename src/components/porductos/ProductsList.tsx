@@ -23,7 +23,7 @@ const Products = [
     { id: 16, name: "laptop6", price: 1200, description: "High-performance laptop", image: {img1}},
     { id: 17, name: "Headphones6", price: 800, description: "Smartphone with great features", image: {img1} },
     { id: 18, name: "phone6", price: 150, description: "Wireless headphones", image: {img1} },
-  ];
+  ]; 
 
 const pedirDatos = () => {
     return new Promise((resolve) => {
