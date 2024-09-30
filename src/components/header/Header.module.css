@@ -6,21 +6,40 @@
     width: 107%;
     margin: -85px;
 }
+.content_nav .input{
+    display: flex;
+    align-items: center;
+}
+.lupa{
+    width: 11%;
+    margin-left: -22px;
+}
+.img_nav{
+    display: flex;
+}
+.hamburger{
+    width: 8%;
+}
+.shopping_cart{
+    width: 12%;
+    margin-left: -185px;
+}
 
 .list{
     display: flex;
     list-style: none;
-    width: 254px;
+    width: 416px;
 }
 .logo{
     width: 30%;
     margin: 13px 0px 13px 191px;
 }
 .ul_li{
-    margin-left: 55%;
+    margin-left: 50%;
+    display: flex;
 }
 li{
-    margin-right: 18px;
+    margin-right: 34px;
     color: rgb(194, 28, 28);
     font-size: 18px;
     font-family: sans-serif;
