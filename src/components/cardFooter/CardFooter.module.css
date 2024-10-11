@@ -37,6 +37,8 @@ h4{
         width: 25%;
         margin: 0;
         text-align: left;
+        justify-content: center;
+        display: flex;
     }
     .contentCardFooter:nth-child(1){
         border-top: none;

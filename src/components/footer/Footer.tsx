@@ -9,31 +9,31 @@ const Footer = () => {
         <div className={style.footer}>
             <CardFooter 
             tittle="our company"
-            text1="ho we work"
+           /*  text1="ho we work"
             text2="why insure?"
             text3="check price"
-            text4="reviews"
+            text4="reviews" */
             />
             <CardFooter 
             tittle="help me"
-            text1="faq"
+           /*  text1="faq"
             text2="terms of use"
             text3="privacy policy"
-            text4="cookies"
+            text4="cookies" */
             />
             <CardFooter 
             tittle="contact"
-            text1="sales"
+            /* text1="sales"
             text2="support"
             text3="live chat"
-            text4=""
+            text4="" */
             />
             <CardFooter 
             tittle="others"
-            text1="carrers"
+           /*  text1="carrers"
             text2="press"
             text3="licenses"
-            text4=""
+            text4="" */
             />
         </div>
     )

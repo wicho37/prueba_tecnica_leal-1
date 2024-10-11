@@ -10,8 +10,12 @@
     border-radius: 10px;
     text-align: center;
     padding: 0 20px;
-    width: 12%;
+    width: 200px;
 }
+.lista div img{
+    width: 100px;
+}
+
 .lista div button{
     margin: 0px 13px 20px;
     padding: 6px;

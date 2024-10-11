@@ -7,9 +7,12 @@
 @media (min-width:1200px) {
     .footer{
         display: flex;
-        height: 256px;
-        margin: 0 11% 0 12%;
-        position: relative;
+        height: 70px;
+        margin: 0;
         border-top: 1px solid hsl(274, 8%, 83%);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
     }
 }
