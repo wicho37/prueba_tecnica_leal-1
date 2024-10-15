@@ -1,9 +1,9 @@
-.lista{
+/* .lista{
     display: flex;
     flex-wrap: wrap;
     margin: 85px;
-    width: 100%;
-}
+    width: 100%; 
+} 
 .lista div{
     margin: 20px;
     border: solid 1px black;
@@ -11,7 +11,7 @@
     text-align: center;
     padding: 0 20px;
     width: 200px;
-}
+} 
 .lista div img{
     width: 100px;
 }
@@ -22,6 +22,5 @@
     border-radius: 8px;
     background-color: yellow;
     cursor: pointer;
-}
-
+}*/
 

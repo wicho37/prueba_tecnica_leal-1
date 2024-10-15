@@ -1,6 +1,6 @@
  const Products = [
-    { id: 1, name: "Laptop1", price: 1200, description: "High-performance laptop", image: "https://dummyimage.com/200*200/00"},
-    { id: 2, name: "Phone1", price: 800, description: "Smartphone with great features", image: "https://dummyimage.com/200*200/00" },
+    { id: 1, name: "Laptop1", price: 1200, description: "High-performance laptop", img: "https://dummyimage.com/200*200/00"},
+    { id: 2, name: "Phone1", price: 800, description: "Smartphone with great features", img: "https://dummyimage.com/200*200/00" },
     { id: 3, name: "Headphones1", price: 150, description: "Wireless headphones", image: "https://dummyimage.com/200*200/00"},
     { id: 4, name: "laptop2", price: 1200, description: "High-performance laptop", image: "https://dummyimage.com/200*200/00"},
     { id: 5, name: "Phone2", price: 800, description: "Smartphone with great features", image: "https://dummyimage.com/200*200/00" },
