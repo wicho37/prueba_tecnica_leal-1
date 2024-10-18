@@ -4,7 +4,7 @@
     position: fixed;
     background: yellow;
     width: 107%;
-    margin: -87px;
+    margin: -85px;
 }
 .content_nav .input{
     display: flex;
@@ -31,6 +31,7 @@
 }
 
 .list{
+    gap: 17px;
     display: flex;
     list-style: none;
     width: 396px;
@@ -44,9 +45,12 @@
     display: flex;
 }
 li{
-    margin-right: 34px;
+    margin-right: -146px;
     color: rgb(194, 28, 28);
     font-size: 18px;
     font-family: sans-serif;
     text-transform: uppercase;
+}
+.navbar{
+    text-decoration: none;
 }

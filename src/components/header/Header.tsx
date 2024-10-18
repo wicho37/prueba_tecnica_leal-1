@@ -1,9 +1,8 @@
-
-
 import styles from "./Header.module.css"
 import logo from "../../assets/iconExito.svg"
 import cart from "../../assets/cart-shopping-solid.svg"
 import lupa from "../../assets/magnifying-glass-solid.svg"
+import { Link } from "react-router-dom"
 
 
 
@@ -23,10 +22,12 @@ const Navbar = () => {
         </div>
         <div className={styles.ul_li}>
                 <img src={cart} className={styles.shopping_cart} alt="" />
-                <ul className={styles.list}>
-                    <li>Feature</li>
-                    <li>Team</li>
-                    <li>Sing In</li>
+                <ul >
+                  <li className={styles.list}>
+                    <Link className={styles.navbar} to="/"> inicio </Link>
+                    <Link className={styles.navbar} to="/ApiExito"> ApiExito </Link>
+                    <Link className={styles.navbar} to="/Post"> Post </Link>
+                  </li>
                 </ul>
         </div>
     </div>
