@@ -10,7 +10,7 @@ export const useProductos = () => {
 
     useEffect (() => {
         setLoading(true)
-
+        
         pedirDatos()
         .then(r => setProductos(r))
         .catch(e => console.log(e))

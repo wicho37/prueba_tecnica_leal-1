@@ -24,6 +24,9 @@ const Navbar = () => {
                 <img src={cart} className={styles.shopping_cart} alt="" />
                 <ul >
                   <li className={styles.list}>
+                    {/* <Link className={styles.navbar} to="/productos/tablets"> tablets </Link>
+                    <Link className={styles.navbar} to="/productos/mac"> mac </Link>
+                    <Link className={styles.navbar} to="/productos/celulares"> celulares </Link> */}
                     <Link className={styles.navbar} to="/"> inicio </Link>
                     <Link className={styles.navbar} to="/ApiExito"> ApiExito </Link>
                     <Link className={styles.navbar} to="/Post"> Post </Link>
