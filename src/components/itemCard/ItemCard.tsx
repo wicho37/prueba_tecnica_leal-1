@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 
 
-const ItemCard = ({item}) => {
+const ItemCard = ({item}:any) => {
 
     return(
         <div className={style.cart}>

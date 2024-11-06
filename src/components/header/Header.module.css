@@ -15,20 +15,15 @@
     margin-left: 23px;
 }
 .lupa{
-    width: 11%;
-    margin-left: -27px;
-    margin-bottom: -7px;
+    width: 5%;
+    margin-left: -31px;
+    margin-bottom: -9px;
 }
 .img_nav{
     display: flex;
 }
-.hamburger{
-    width: 8%;
-}
-.shopping_cart{
-    width: 12%;
-    margin-left: -185px;
-}
+
+
 
 .list{
     gap: 17px;

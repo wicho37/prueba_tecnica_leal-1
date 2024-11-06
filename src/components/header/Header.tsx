@@ -1,8 +1,7 @@
 import styles from "./Header.module.css"
 import logo from "../../assets/iconExito.svg"
-import cart from "../../assets/cart-shopping-solid.svg"
 import lupa from "../../assets/magnifying-glass-solid.svg"
-import { Link } from "react-router-dom"
+import Menu from "../menu/Menu";
 
 
 
@@ -19,21 +18,12 @@ const Navbar = () => {
               />
               <img src={lupa} className={styles.lupa}alt="" />
             </div>
-        </div>
-        <div className={styles.ul_li}>
-                <img src={cart} className={styles.shopping_cart} alt="" />
-                <ul >
-                  <li className={styles.list}>
-                    {/* <Link className={styles.navbar} to="/productos/tablets"> tablets </Link>
-                    <Link className={styles.navbar} to="/productos/mac"> mac </Link>
-                    <Link className={styles.navbar} to="/productos/celulares"> celulares </Link> */}
-                    <Link className={styles.navbar} to="/"> inicio </Link>
-                    <Link className={styles.navbar} to="/ApiExito"> ApiExito </Link>
-                    <Link className={styles.navbar} to="/Post"> Post </Link>
-                  </li>
-                </ul>
-        </div>
+            <div>
+              <Menu />
+            </div>
     </div>
+        </div>
+        
   )
 };
 

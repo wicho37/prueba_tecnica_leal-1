@@ -20,13 +20,13 @@ const ApiExito = () => {
         <h2>Productos exito</h2>
         <br />
         {
-           /*  data &&
+            data &&
             <div>
                 <ItemList productos={data}/>
-            </div> */
-            loading
+            </div>
+            /* loading
             ? <h2>cargando....</h2>
-            : <ItemList productos={data}/>
+            : <ItemList productos={data}/> */
         }
        </div>
     )

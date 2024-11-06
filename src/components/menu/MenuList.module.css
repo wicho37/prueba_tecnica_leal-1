@@ -1,0 +1,49 @@
+.burger{
+    width: 6%;
+}
+.shopping_cart{
+    width: 12%;
+    margin-left: -185px;
+}
+.menu_backdrop{
+    background-color: rgba(rgb(255, 208, 0));
+    position: fixed;
+    inset: 0;
+    visibility: hidden ;
+    transition: all .2s;
+} 
+.burger{
+    width: 33px
+}
+.list{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap:30px ;
+    width: 130px;
+    height: 100%;
+    position: absolute;
+    right: -300px;
+    padding: 20px;
+    top: 90px;
+}
+.navbar{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+ 
+.menu_active .menu_backdrop{
+    visibility: visible;
+    transition: right .15s ease-in-out .2s;
+}
+.menu_active .list{
+    right: 0px;
+    transition: right .15s ease-in-out .1s;
+}
+.botonClose{
+        width: 40px;
+       margin-left: 65%;
+}
+
+
