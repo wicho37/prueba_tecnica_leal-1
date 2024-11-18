@@ -3,7 +3,7 @@ import ItemList from "../../components/ItemList/ItemList";
 import { useFetch } from "../../hook/useFetch";
 import { useParams } from "react-router-dom";
 import { useProductos } from "../../hook/useProductos";
-import styles from "./hoc/Apiexito.module.css"
+import styles from "./Apiexito.module.css"
 
 const ApiExito = () => {
     const {productos, loading } = useProductos()

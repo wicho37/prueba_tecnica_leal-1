@@ -1,7 +1,11 @@
+import { useContext } from "react";
 import { useFetch } from "../../hook/useFetch";
+import { CartContext } from "../../context/CartContext";
 
 
 const Post = () => {
+    const contexto = useContext(CartContext)
+    console.log(contexto)
     const {data: posts} = useFetch("https://jsonplaceholder.typicode.com/posts")
     console.log(posts)
 

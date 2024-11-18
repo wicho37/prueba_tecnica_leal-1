@@ -9,6 +9,7 @@ import { useParams } from "react-router-dom";
 
 
 
+
 const ProductList = () => {
 /*   const {productos, loading } = useProductos()
   console.log(productos, loading) */
@@ -18,7 +19,7 @@ const ProductList = () => {
   const [loading, setLoading] = useState (true)
 
   const {categoryId} = useParams ()
-  console.log(categoryId)
+  
  
   
   useEffect (() => {

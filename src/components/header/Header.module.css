@@ -4,13 +4,15 @@
     position: fixed;
     background: yellow;
     width: 107%;
-    margin: -85px;
+    margin: -55px;
 }
 .content_nav .input{
     display: flex;
     align-items: center;
+    width: 242px;
+    margin-top: 70px;
 }
-.input div input{
+.input div .input{
     height: 28px;
     margin-left: 23px;
 }
