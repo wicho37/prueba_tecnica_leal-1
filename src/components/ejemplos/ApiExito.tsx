@@ -7,13 +7,13 @@ import styles from "./Apiexito.module.css"
 
 const ApiExito = () => {
     const {productos, loading } = useProductos()
-    console.log(productos, loading)
+  /*   console.log(productos, loading) */
 
     const {categoryId} = useParams()
-    console.log(categoryId)
+    /* console.log(categoryId) */
 
     const {data} = useFetch('https://fakestoreapi.com/products')
-    console.log(data)
+    /* console.log(data) */
     
     return(
        <div className={styles.containerApi}>
@@ -21,9 +21,9 @@ const ApiExito = () => {
         <br />
         {
             data &&
-            <div>
+   
                 <ItemList productos={data}/>
-            </div>
+          
             /* loading
             ? <h2>cargando....</h2>
             : <ItemList productos={data}/> */

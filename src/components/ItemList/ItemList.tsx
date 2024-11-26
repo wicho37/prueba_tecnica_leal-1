@@ -3,7 +3,7 @@
  
  
  
-const ItemList = ({productos}) => {
+const ItemList = ({productos}:any) => {
     
     return(
         <div className={style.lista}>

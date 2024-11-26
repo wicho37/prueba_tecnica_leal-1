@@ -7,8 +7,10 @@ import { CartContext } from "../../context/CartContext"
 
 
 const ItemCard = ({item}:any) => {
-    const {cart, setCart}= useContext(CartContext)
-    const [cantidad, setCantidad] = useState(1)
+    const {agregarAlCarrrito, isInCart}= useContext(CartContext)
+    
+
+    const [cantidad, setCantidad] = useState(0)
     /* const [color, setColor] = ("negro") */
 
     
@@ -18,13 +20,14 @@ const ItemCard = ({item}:any) => {
             cantidad
            /*  color */
           }
-          setCart( [...cart, newItem] )
+          agregarAlCarrrito(newItem)
     }
 
     return(
         <div className={style.cart}>
             <Link to={`/detail/${item.id}`}>
             <h2>{item.name}</h2>
+            <h2>{item.tittle}</h2>
             <img src={item.image} alt="" />
             <p>precio: $ {item.price}</p>
             </Link>
