@@ -6,7 +6,7 @@ import style from "./CartView.module.css"
 
 
 const CartView = () => {
-    const {cart, totalCompra} = useContext(CartContext)
+    const {cart, totalCompra, vaciarCarrito} = useContext(CartContext)
 
     return (
         <div  className={style.contentCart}>
@@ -22,11 +22,11 @@ const CartView = () => {
                         <p>Cantidad: {item.cantidad}</p>
                         <hr />
                     </div>
-                   
                 ))
             }
              <div>
                 <h4 className={style.compra}>Total Compra: ${totalCompra()}</h4>
+                <button onClick={vaciarCarrito}>Vaciar Carrito</button>
             </div>
         </div>
     )

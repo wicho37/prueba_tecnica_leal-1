@@ -2,6 +2,7 @@ import styles from "./Header.module.css"
 import logo from "../../assets/iconExito.svg"
 import lupa from "../../assets/magnifying-glass-solid.svg"
 import Menu from "../menu/Menu";
+import ShoppingCart from "../ShoppingCart/ShoppingCart";
 
 
 
@@ -18,9 +19,10 @@ const Navbar = () => {
               />
               <img src={lupa} className={styles.lupa}alt="" />
             </div>
-            <div>
+            
               <Menu />
-            </div>
+              <ShoppingCart />
+            
     </div>
         </div>
         

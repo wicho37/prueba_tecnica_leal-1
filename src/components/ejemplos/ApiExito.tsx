@@ -15,6 +15,7 @@ const ApiExito = () => {
     const {data} = useFetch('https://fakestoreapi.com/products')
     /* console.log(data) */
     
+    /* const {agregarAlCarrrito} = useContext(CartContext) */
     return(
        <div className={styles.containerApi}>
         <h2>Productos exito</h2>

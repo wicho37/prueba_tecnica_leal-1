@@ -1,0 +1,12 @@
+.contentShopping{
+    display: flex;
+    text-decoration: none;
+}
+.contentShopping img{
+    width: 23%;
+    margin-left: 40px;
+}
+.contentShopping span{
+    font-size: 30px;
+    margin-left: -5px;
+}
