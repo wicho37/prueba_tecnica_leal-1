@@ -6,7 +6,7 @@ import style from "./CartView.module.css"
 
 
 const CartView = () => {
-    const {cart, totalCompra, vaciarCarrito} = useContext(CartContext)
+    const {cart, totalCompra, vaciarCarrito, eliminarDelCarrito} = useContext(CartContext)
 
     return (
         <div  className={style.contentCart}>
@@ -20,6 +20,7 @@ const CartView = () => {
                         <img src={item.image} alt={item.nombre}/>
                         <p>Precio: ${item.price * item.cantidad}</p>
                         <p>Cantidad: {item.cantidad}</p>
+                        <button onClick={() => eliminarDelCarrito(item.id)}>eliminar producto</button>
                         <hr />
                     </div>
                 ))
