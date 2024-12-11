@@ -1,6 +1,4 @@
-.burger{
-    width: 6%;
-}
+
 .shopping_cart{
     width: 12%;
     margin-left: -185px;
@@ -12,8 +10,10 @@
     visibility: hidden ;
     transition: all .2s;
 } 
-.burger{
-    width: 33px
+.burger img{
+    width: 28px;
+    padding: 0%;
+    margin-left: 20px;
 }
 .list{
     background-color: blue;

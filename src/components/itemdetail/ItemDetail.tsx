@@ -26,7 +26,7 @@ const ItemDetail = ({item}:any) => {
 
     return(
         <div className={style.cart}>
-            <h2>{item.name}</h2>
+            <h2>{item.title}</h2>
             <img src={item.image} className={style.imgIdetail} alt="" />
             <p>precio: $ {item.price}</p>
             <p>{item.description}</p>

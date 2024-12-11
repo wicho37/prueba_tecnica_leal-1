@@ -1,4 +1,4 @@
-import style from "./ItemCard.module.css"
+
 import { Link } from "react-router-dom"
 import ItemCounter from "../ItemCounter/ItemCounter"
 import { useContext, useState } from "react"
@@ -24,9 +24,9 @@ const ItemCard = ({item}:any) => {
     }
 
     return(
-        <div className={style.cart}>
+        <div>
             <Link to={`/detail/${item.id}`}>
-            <h2>{item.name}</h2>
+        
             <h2>{item.tittle}</h2>
             <img src={item.image} alt="" />
             <p>precio: $ {item.price}</p>

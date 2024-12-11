@@ -21,13 +21,13 @@ h4{
     padding: 35px 0 0;
     color: hsl(273, 4%, 51%);
     letter-spacing: 1.5px;
-    margin: 7px 35px 25px;
+    margin:17px;
     font-family: karla;
     font-size: 13px;
 }
   .contentCardFooter:nth-child(1){
     border-top: 1px solid  hsl(274, 8%, 83%);
-    margin: 0 26px;
+    margin: 0px 10px 0 0;
   }
 
 

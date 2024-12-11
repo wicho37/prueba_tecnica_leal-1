@@ -20,7 +20,7 @@ const ItemDetailProducts = () => {
 
         pedirDatos()
         .then(r => {
-            setItem( r.find(prod => prod.id === Number(itemId)) )
+            setItem( r.find(productos => prod.id === Number(itemId)) )
         })
         .finally(() => setLoading(false))
     },[])
